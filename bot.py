@@ -75,7 +75,7 @@ def echo_all(message):
         "Men tayyorman! Menga o'qish yoki darslaringiz bo'yicha istalgan"
         " savolingizni yuboring:",
     )
-    bot.register_next_step_handler(message, ai_javob berish)
+    bot.register_next_step_handler(message, ai_javob_berish)
 
   elif message.text == "Bugungi reja":
     bot.reply_to(
